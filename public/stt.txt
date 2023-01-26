@@ -1,0 +1,37 @@
+  // const {setWritingText,writingText} = useContext(AllContext)
+  // const [index,setindex] = useState(0)
+  // const textArray = text.split("")
+  // const ref = useRef()
+  // // console.log(ref?.current?.innerText)
+  // // console.log(textArray.length)
+  // const splicer = ()=>{
+  //   const currentList = textArray.splice(0,index).toString()
+  //   return (currentList.replace(/\,/g,""))
+  // }
+  // useEffect(()=>{
+  //     if(ref?.current?.innerText === text){
+  //       console.log(text)
+  //       console.log(ref.current.innerText)
+  //       console.log("returning")
+  //       return
+  //     }
+  //     setTimeout(()=>{
+  //       console.log(index)
+  //         if (textArray.length === index-1){
+  //           // setWritingText(false) 
+  //           console.log("here")
+  //           return}
+  //         setindex((prev=>prev+1))
+  //     },[50])
+  // },[index])
+
+
+
+
+  \n\n1. Choose a topic that your readers can relate to. If you’re writing for college students, address topics that they can connect with, such as the college experience, relationships, professional development, or mental health. \n\n2. Start your article with an attention-grabbing introduction. Engage your readers right away by introducing the topic in an interesting way. \n\n3. Make your points clear and concise. Use facts, statistics, and personal anecdotes to back up your arguments.\n\n4. Use an active voice to tell your story. Avoid passive voice and make sure to keep your sentences succinct. \n\n5. Add visual elements to liven up your article. Include graphics, images, and videos to break up text and add visual interest. \n\n6. End your article with a strong conclusion. Summarize your key points and leave readers with something to think about. \n\n7. Provide practical advice or helpful tips. If you’re writing an article about relationships, for example, offer advice on how to manage conflict or make long-distance relationships work. \n\n8. Make sure to edit your article. Have a few people read it over and provide feedback. This will help ensure your article is well-written, clear, and engaging.",
+
+
+
+
+
+  \n\n1. Write about topics that are relevant to the current tertiary students. For example, you can write about the benefits of interning, taking a gap year, or studying abroad.\n\n2. Make sure to include personal stories from other students or alumni to give the article a personal touch. This will make the article more relatable and captivating.\n\n3. Utilize research studies, facts, and figures to back up your points. This will help your readers gain a better understanding of the content.\n\n4. Keep the language simple yet engaging. Try to avoid using jargon or overly technical language.\n\n5. Craft an interesting title that accurately reflects the content of the article and make sure to properly format the article with subheadings and paragraphs.\n\n6. Add some visuals, like images or videos, to make the article more visually appealing.\n\n7. End your article with a strong call to action. This will encourage your readers to take a desired action after reading the article.\n\nWith these tips in mind, you’ll be sure to create an article that will captivate readers especially those in tertiary institution. Good luck!"

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+
+
+
+@media (min-width: 640px) {
+  *{
+    scrollbar-width:thin;
+  }
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 30vh;
+  }
+  *::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 5px;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(128 128 128 / 0.4);
+    border-radius: 14px;
+    border: 3px solid var(--primary);
+  }
+}
+
+
+button{
+  outline: none;
+}
+
+.input-shadow{
+  box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.575);
+}
+
+.line-height{
+  line-height:22px;
+}
+.image-shadow{
+  box-shadow: 0px 0px 6px black;
+}
+
+.testx{
+  color:#343541
+}
+
+:root{
+  @apply font-noto text-sm 
+}
+
+.cont{
+  @apply px-2 md:px-3 lg:px-4
+}
+.onhover{
+  @apply hover:before:inset-0 hover:before:absolute hover:before:h-full hover:before:w-full hover:before:bg-white/5
+}
+.fade{
+  @apply after:w-[5%] after:bg-[#202123]/90 after:h-[100%] after:absolute after:top-0 after:right-0 after:z-20
+}
+
+
+@tailwind utilities;
