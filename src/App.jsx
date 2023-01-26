@@ -17,7 +17,9 @@ function App() {
 
     }
     fetchData()
-  },[])
+
+  },[]) 
+
   return (
     <Fragment>
         {onHomePage && <HomePage/>}

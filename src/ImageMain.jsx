@@ -1,6 +1,5 @@
 import React,{useContext,Fragment,useState} from 'react'
 import NavBar from './components/NavBar'
-import { imageConstants } from './assets/constants'
 import AllContext from '../store/Allcontext'
 import ImgBody from './imgcomp/ImgBody'
 

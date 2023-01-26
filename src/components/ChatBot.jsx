@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useEffect} from 'react'
 import aiLogo from "../assets/ailogo.png"
 import TypeWriter from './TypeWriter'
 

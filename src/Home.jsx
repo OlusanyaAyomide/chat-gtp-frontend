@@ -1,5 +1,4 @@
 import React,{Fragment,useState,useContext} from 'react'
-import { lists } from './assets/constants'
 import NavBar from './components/NavBar'
 import Body from './components/Body'
 import AllContext from '../store/Allcontext'

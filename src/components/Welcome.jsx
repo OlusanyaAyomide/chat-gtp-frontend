@@ -1,6 +1,4 @@
-import React,{useContext} from 'react'
-import AllContext from '../../store/Allcontext'
-
+import React from 'react'
 
 export default function Welcome({ Allinfo,setInputValue }) {
   // const {setInputValue} =useContext(AllContext)

@@ -46,16 +46,13 @@ export const lists =[
     },    
 ]
 
-const navOptions =[
-    {icon:"",}
-]
 
 export const Allinfo =
 [
            {header:"Examples",
             icon:"fa fa-sun",
             text:[
-            "Explain quantume computing in simple terms",
+            "Explain quantum computing in simple terms",
             "Got any creative ideas for a 10 year old's birthday",
             "How do i make an HTTP request in javascript"]}
         ,

@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import TypeWriterEffect from 'react-typewriter-effect'
+import Typewriter from "typewriter-effect";
 
 
 export default function TypeWriter({text}) {
@@ -12,15 +12,18 @@ export default function TypeWriter({text}) {
   },[text])
   return (
     <div >
-     {control && <TypeWriterEffect
-            textStyle={{lineHeight:"21px"}}
-            startDelay={10}
-            cursorColor="black"
-            text={text}
-            typeSpeed={50}
-            // scrollArea={ref}
-          />}
+     {control &&  <Typewriter
 
+     options={{
+      delay:33
+     }}
+  onInit={(typewriter)=> {
+  typewriter
+  .typeString(text)
+  .start();
+  }}
+  />}
+        {/* {text} */}
     </div>
 
   )
