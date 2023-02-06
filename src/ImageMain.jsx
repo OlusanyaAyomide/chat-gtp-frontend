@@ -15,7 +15,7 @@ export default function ImageMain() {
           <div className='w-full md:w-8/12 lg:w-9/12 relative z-10'><ImgBody toggle={settoggle}/>
           </div>
         </div>
-        {toggle &&<div className='absolute md:hidden inset-0 w-full z-10'>
+        {toggle &&<div className='fixed md:hidden inset-0 w-full z-10'>
             <NavBar lists ={imageNavItems} toggle={settoggle} setInputValue = {setImageInput} setisNew ={setIsImageNew} chatList={imageChatList} setChatLists={setImageChatList}/>
         </div>}
    
